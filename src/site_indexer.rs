@@ -4,7 +4,10 @@ pub struct AppState {
     pub sites: Vec<(String, String)>,
 }
 
-pub fn read_file(path: &Path) -> Vec<(String, String)> {
+pub fn read_file() -> Vec<(String, String)> {
+    let path_string = std::env::args().nth(1).expect("no path given");
+    let path = Path::new(&path_string);
+    
     let data = fs::read_to_string(path).expect("Unable to read file");
     let site_info = data
         .lines()
@@ -14,6 +17,6 @@ pub fn read_file(path: &Path) -> Vec<(String, String)> {
             (info.0.to_string(), info.1.to_string())
         })
         .collect::<Vec<_>>();
-
+    
     site_info
 }
