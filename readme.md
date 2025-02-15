@@ -8,7 +8,7 @@ The code here is a service we have running on a server at [aberwebr.ing](https:/
 
 ```https://aberwebr.ing/AlicesWebsite/left```
 
-### Joining
+## Joining
 To join the webring, read the criteria section below, then just create a pull request adding yourself to the pages.csv file. Then add the webring buttons somewhere on your site. You __must__ have a left and right button, and its also common practise to have a central button that goes to [the webrings index page](https://aberwebr.ing). If in doubt, look at how the other members implement theirs!
 
 ## Criteria
