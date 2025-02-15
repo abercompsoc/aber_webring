@@ -27,6 +27,8 @@ You'll need a few things before you can build it:
 - CMake
 
 Also note, the CSV file follows this format:
+
 ```unique identifier,website url,email```
+
 also also note, the program doesnt remove any whitespace so only put spaces where you want them e.g. not after a comma
 
