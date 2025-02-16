@@ -32,3 +32,7 @@ Also note, the CSV file follows this format:
 
 also also note, the program doesnt remove any whitespace so only put spaces where you want them e.g. not after a comma
 
+## Important things!
+- We are unaffiliated with the universtity, this is a student/alumni run project.
+- If you want anything taken off the webring, raise an issue and we'll get on it as soon as possible :)
+
