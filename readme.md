@@ -22,6 +22,7 @@ Make sure your website represents you! This is meant for personal sites, not pro
 If you want to use this code yourself for your own webring (which you defo should do!). Build it with cmake and give it the location of the csv file of pages as an argument when running it.
 
 You'll need a few things before you can build it:
+- Crowcpp
 - Asio development headers (1.10.9 or later)
 - OpenSSL
 - CMake
