@@ -22,6 +22,7 @@ Make sure your website represents you! This is meant for personal sites, not pro
 If you want to use this code yourself for your own webring (which you defo should do!). Build it with cmake and give it the location of the csv file of pages as an argument when running it.
 
 You'll need a few things before you can build it:
+- Crowcpp
 - Asio development headers (1.10.9 or later)
 - OpenSSL
 - CMake
@@ -32,3 +33,6 @@ Also note, the CSV file follows this format:
 
 also also note, the program doesnt remove any whitespace so only put spaces where you want them e.g. not after a comma
 
+## Important things!
+- We are unaffiliated with the universtity, this is a student/alumni run project.
+- If you want anything taken off the webring, raise an issue and we'll get on it as soon as we see it :)
