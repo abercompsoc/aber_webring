@@ -57,6 +57,10 @@ public:
     while (std::getline(*file, line))
     {
         std::stringstream lineStream(line);
+
+        if (line.size() == 0)
+          continue;
+        
         std::string url;
         std::string name;
 
