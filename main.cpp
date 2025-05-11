@@ -105,7 +105,7 @@ public:
       return NULL;
 
     rightIndex++;
-    if (rightIndex > pages->size())
+    if (rightIndex >= pages->size())
       rightIndex = 0;
     return (*pages)[rightIndex]->url;
   }
