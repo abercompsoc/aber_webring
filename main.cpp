@@ -158,7 +158,7 @@ int main(int argc, char** argv)
     if (!ring->nameIsInRing(name))
     {
       crow::response response;
-      response.write("The name you started your request from isnt in the ring :( \nFeel free to contact aber comp-soc and ask to be added");
+      response.write("The name you started your request from isnt in the ring :( \nFeel free to contact aber comp-soc and ask to be added\nTheres also a chance it is but the ring hasn't updated yet, it updates once a day at midnight so check back tomorrow morning!");
       response.code = 400;
       return response;
     }
